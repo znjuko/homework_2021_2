@@ -4,7 +4,7 @@
 /**
  * Used for creating ASCII chessboard of size * size characters starting w/ '*'
  *
- * @param {string|number} size - chessboard size
+ * @param {null} size - chessboard size
  * @returns {string|null} - resulting chessboard
  */
 
