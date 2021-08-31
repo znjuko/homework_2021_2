@@ -14,12 +14,12 @@ let chess = (size) => {
         return null;
     }
 
-    let board = "";
+    let board = '';
     for (let i = 0; i < size; i++) {
         for (let j = 0; j < size; j++) {
-            board += (i + j) % 2 === 0 ? "*" : " ";
+            board += (i + j) % 2 === 0 ? '*' : ' ';
         }
-        board += "\n";
+        board += '\n';
     }
 
     return board;
