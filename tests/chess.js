@@ -49,6 +49,5 @@ QUnit.module("Тестируем функцию chess", function () {
         assert.strictEqual(chess("i am not valid :C"), expected);
         assert.strictEqual(chess(null), expected);
         assert.strictEqual(chess(Object), expected);
-
     });
 });
