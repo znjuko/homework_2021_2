@@ -9,7 +9,7 @@
  */
 
 // using const in case if someone overwrite our function
-const chess = (size) => {
+const chess = size => {
     if (!(size >= 2 && Number.isInteger(+size))) {
         return null;
     }
