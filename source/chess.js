@@ -1,5 +1,5 @@
 /* driven by the use of a modern regime */
-"use strict";
+'use strict';
 
 /**
  * Used for creating ASCII chessboard of size * size characters starting w/ '*'
@@ -8,8 +8,8 @@
  * @returns {string|null} - resulting chessboard
  */
 
-// using let instead of var, 'cause it's been outdated
-let chess = (size) => {
+// using const in case if someone overwrite our function
+const chess = (size) => {
     if (!(size >= 2 && Number.isInteger(+size))) {
         return null;
     }

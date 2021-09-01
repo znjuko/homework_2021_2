@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 QUnit.module("Тестируем функцию chess", function () {
     QUnit.test("Шахматной доски 1 на 1 не бывает", function (assert) {
