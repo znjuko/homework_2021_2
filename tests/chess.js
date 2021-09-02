@@ -58,4 +58,11 @@ QUnit.module('Тестируем функцию chess', function () {
 		assert.strictEqual(chess('8'), expected);
 	});
 
+	QUnit.test('Неверные входные параметры', function (assert) {
+		const expected = null;
+		assert.strictEqual(chess('i am not valid :C'), expected);
+		assert.strictEqual(chess(null), expected);
+		assert.strictEqual(chess(Object), expected);
+	});
+
 });
